@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { StyleSheet } from "react-native";
 import { Context } from "../context/BlogContext";
-import { EvilIcons } from "@expo/vector-icons";
 import BlogPostForm from "../components/BlogPostForm";
 
 const EditScreen = ({ navigation }) => {
